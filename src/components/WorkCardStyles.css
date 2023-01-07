@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@200;500&display=swap');
+
+
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    font-size: 3rem;
+    
+}
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 40px;
+}
+.project-card{
+    background: #1a1919;
+    padding: 1.2rem 1rem 0 -0.2rem;
+    border: 1px solid #eee;
+
+}
+.project-card img{
+    width: 100%;
+}
+.project-title{
+    text-align: center;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify; 
+    font-family: 'Oswald', sans-serif;
+
+}
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width:740px) {
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    
+}

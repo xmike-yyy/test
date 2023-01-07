@@ -1,0 +1,53 @@
+.bio-img{
+    height: 100%;
+    width: 50%;
+    padding: 25px 25px 25px 0px;
+    margin-left: 175px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  h2{
+    color: #fff;
+  }
+  .btn1 {
+    position: relative;
+    left:220px;
+    top:50px;
+    padding: 2em 5em;
+    width: 48em;
+    height: 80em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 160px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+  }
+  .btn1:hover {
+    background: #ec0b36 url("../assets/pixel.png");
+    transition-delay: 0.3s;
+    animation: button 0.8s steps(8) forwards;
+    background-size: 200px;
+  }
+  @keyframes button
+  {
+    0%
+    {
+      background-position-y: 0;
+    }
+    100%
+    {
+      background-position-y: -480px;
+    }
+
+
+  }
